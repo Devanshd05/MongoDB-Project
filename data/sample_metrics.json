@@ -1,0 +1,23 @@
+{
+  "dataset": {
+    "products": 100,
+    "observations": 8000,
+    "train_rows": 5500,
+    "test_rows": 2400,
+    "synthetic": true,
+    "split": "Chronological: day 0-54 train, day 55-78 test"
+  },
+  "classification": {
+    "model": "Decision Tree Classifier",
+    "accuracy": 0.5658,
+    "precision": 0.5108,
+    "recall": 0.892,
+    "f1_score": 0.6496,
+    "positive_class": "price_drop_7d = 1 (at least 5% drop within next 7 days)"
+  },
+  "regression": {
+    "model": "Linear Regression",
+    "r2_score": 0.9964,
+    "mae": 183.7589
+  }
+}
